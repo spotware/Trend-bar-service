@@ -57,6 +57,8 @@ We need to implement a trend bar service that:
    storage as soon as the period for a trend bar is over.
 2. Provides a trend bar history upon request. Specifically, it should return a set of TBs by a given symbol name, trend bar period, and *from* timestamp and *to* timestamp. If the *to* timestamp is omitted, the method should return all TBs between the *from* timestamp and the current time.
 
+To verify the solution's operability, it is necessary to implement an integration test that simulates a high-load system scenario.
+
 ## General requirements
 
 1. The source code must be compilable. If it is not, then the task is not considered complete.
