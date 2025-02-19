@@ -5,3 +5,4 @@
 .springBeans
 .settings/
 target/
+.vscode/
